@@ -1,4 +1,4 @@
-all: dyn_eval_noform.out
+all: lispweb.out
 
 %.out: %.scm
 	bigloo $^ -o $@
